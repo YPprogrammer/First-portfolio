@@ -22,6 +22,10 @@
 
 header{
   background-color: #FFF8F3;
+  background: url("/images/developer.png"), url("/images/header_bg.png"), #FFF8F3;
+
+  background-position: top left,bottom right;
+  background-repeat: no-repeat;
   padding-top: 50px;
 }
 nav{
@@ -51,12 +55,16 @@ nav .menu a{
   font-size: 20px;
   font-weight: bold;
   color: white;
+  cursor: pointer;
 }
 #banner{
   margin: 46px 38px 0px 230px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+#banner .banner-content{
+  max-width: 585px;
 }
 #banner .banner-content h1 {
 font-size: 45px;
@@ -73,10 +81,11 @@ margin-bottom: 5px;
 #banner .banner-content p{
   font-size: 18px;
   color: #757575;
-  margin-bottom: ;
+  margin-bottom: 20px;
+  line-height: 30px
 }
 
-#banner .banner image {
-  margin-left: ;
-
+#banner .banner image img{
+  max-width: 585px;
+  vertical-align: middle;
 }
